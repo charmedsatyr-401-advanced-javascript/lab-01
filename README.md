@@ -7,15 +7,15 @@
 
 ### Links and Resources
 * [repo](https://github.com/charmedsatyr-401-advanced-javascript/lab-01)
-* [travis](http://xyz.com)
+* [travis](https://travis-ci.org/charmedsatyr-401-advanced-javascript/lab-01)
 
 #### Documentation
 * [lab assignment](https://github.com/codefellows/seattle-javascript-401d29/blob/master/curriculum/class-01/lab/README.md)
 
 ### Modules
-#### `arithmetic.js`
-##### Exported Values and Methods
-
+* `arithmetic.js`
+* `greet.js`
+##### Exported Values and Methods from `arithmetic.js`
 ###### `arithmetic.add(number, number) -> number`
 `arithmetic.add(1, 2)` -> `3`
 
@@ -28,15 +28,14 @@
 ###### `arithmetic.divide(number, number) -> number`
 `arithmetic.add(6, 3)` -> `2`
 
-#### `greet.js`
-##### Exported Values and Methods
 
+##### Exported Values and Methods from `greet.js`
 ###### `greet(string) -> string`
 `greet('world')` -> `'hello, world'`
 
 ### Setup
 #### Running the app
-* `npm start`
+* N/A
   
 #### Tests
 * How do you run tests?
