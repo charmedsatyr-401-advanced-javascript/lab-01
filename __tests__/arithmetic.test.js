@@ -16,13 +16,13 @@ beforeEach(() => {
 });
 
 describe('`arithmetic.isNum` method', () => {
-  it('should return true if it receives an array of numbers', () => {
+  it('should return `true` if it receives an array of numbers', () => {
     expect(arithmetic.isNum(nums)).toBeTruthy();
   });
-  it('should return false if it receives an array that contains non-numbers', () => {
+  it('should return `false` if it receives an array that contains non-numbers', () => {
     expect(arithmetic.isNum(mixed)).toBeFalsy();
   });
-  it('should return false if its argument is not an array', () => {
+  it('should return `false` if its argument is not an array', () => {
     expect(arithmetic.isNum(w)).toBeFalsy();
   });
 });
@@ -56,7 +56,7 @@ describe('`arithmetic.multiply` method', () => {
 });
 
 describe('`arithmetic.divide` method', () => {
-  it('should return `null` if it does not receive two numbers for arguments', () => {
+  it('should return `null` if its first two arguments are not numbers', () => {
     expect(arithmetic.divide(a, w)).toBeNull();
   });
   it('should return `null` if the second argument is 0', () => {
